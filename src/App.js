@@ -1,10 +1,16 @@
 import './App.css';
-import DerivingState from './DerivingState';
+import PropDrilling from './PropDrilling';
+
+//import DataModeling from './DataModeling';
+
+// import DerivingState from './DerivingState';
 
 function App() {
   return (
     <div>
-      <DerivingState />
+      {/* <DerivingState /> */}
+      {/* <DataModeling /> */}
+      <PropDrilling />
     </div>
   );
 }
